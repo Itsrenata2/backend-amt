@@ -20,4 +20,4 @@ EXPOSE 8000
 ENV PYTHONUNBUFFERED=1
 
 # Run the application using Uvicorn (adjust app:app to match your entry point)
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["gunicorn", "app:app", "--bind", "0.0.0.0:8000"]
