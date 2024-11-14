@@ -12,6 +12,7 @@ Flask==3.1.0
 Flask-Cors==5.0.0
 idna==3.7
 itsdangerous==2.2.0
+gunicorn==23.0.0
 Jinja2==3.1.4
 jmespath==1.0.1
 kaggle==1.6.14
